@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Footer.css'
 
-class Services extends Component {
+class Footer extends Component {
 
     render() {
         return (
@@ -11,4 +11,4 @@ class Services extends Component {
     }
 }
 
-export default Services;
+export default Footer;
