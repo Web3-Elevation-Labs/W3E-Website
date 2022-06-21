@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
 import './Landing.css'
+import { Link } from 'react-scroll';
 
 class Landing extends Component {
     render() {
         return (
-            <div className='landing'>
+            <div className='landing' id='landing'>
                 <div className='header'>
                     
                     <p className='landing_header_title'>Web3 Elevation Labs</p>
                     <div className='landing_header_menu'>
-                        <p>Services</p>
-                        <p>About</p>
-                        <p>Our Work</p>
-                        <p>Contact Us</p>
+                        <li><Link to="landing" activeClass="active" spy={true} smooth={true} offset={0}>Home</Link></li>
+                        <li><Link to="services" spy={true} smooth={true} offset={-125} >Services</Link></li>
+                        <li>About</li>
+                        <li>Our Work</li>
+                        <li>Contact Us</li>
                     </div>
                 </div>
                 <div className='landing_showcase_wrapper'>

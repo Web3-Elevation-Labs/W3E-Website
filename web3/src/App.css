@@ -1,3 +1,19 @@
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 1920px;
+  background-color: #FFF;
+  position: relative;
+  color: #2a2825;
+}
+
 /* fonts */
 
 @font-face {
@@ -43,6 +59,7 @@
   text-align: center;
   position: relative;
   background-color: #FFF;
+  overflow: hidden;
 }
 
 * {

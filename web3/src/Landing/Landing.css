@@ -1,6 +1,7 @@
 .landing {
-    height: 1000px;
+    height: 900px;
     background-color: #FFF;
+    color: #2a2825;
 }
 
 .header {
@@ -22,7 +23,7 @@
     color: #2a2825;
     letter-spacing: -0.9px;
     top: 16%;
-    font-size: 36px;
+    font-size: 33px;
     font-family: 'Aperco-Pro-Bold';
     line-height: 24px;
 }
@@ -36,7 +37,7 @@
     float: right;
 }
 
-.landing_header_menu p {
+.landing_header_menu li {
     display: inline;
     float: left;
     color: #2a2825;
@@ -47,7 +48,17 @@
     font-size: 15px;
 }
 
-.landing_header_menu p:hover {
+.landing_header_menu a {
+    font-family: 'Aperco-Pro';
+    color: #2a2825;
+}
+
+.landing_header_menu li:hover {
+    color: #c7c7c7;
+    cursor: pointer;
+}
+
+.landing_header_menu a:hover {
     color: #c7c7c7;
     cursor: pointer;
 }
