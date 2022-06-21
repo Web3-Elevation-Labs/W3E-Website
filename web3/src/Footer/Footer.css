@@ -3,4 +3,5 @@
     height: 900px;
     color: #2a2825;
     z-index: 1;
+    border: solid red;
 }
