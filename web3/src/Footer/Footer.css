@@ -5,6 +5,7 @@
     z-index: 1;
     border: solid red;
     color: black;
+    bottom: 0px;
 }
 
 .container {
