@@ -20,12 +20,29 @@
   src: url('./fonts/Roboto-Bold.ttf');
 }
 
+@font-face {
+  font-family: "Aperco-Pro";
+  src: url('./fonts/Aperco-Pro.ttf');
+}
+
+@font-face {
+  font-family: "Aperco-Pro-Medium";
+  src: url('./fonts/Aperco-Pro-Medium.ttf');
+}
+
+@font-face {
+  font-family: "Aperco-Pro-Bold";
+  src: url('./fonts/Aperco-Pro-Bold.ttf');
+}
+
+
+
 /* app styling */
 
 .App {
   text-align: center;
   position: relative;
-  background-color: #000;
+  background-color: #FFF;
 }
 
 * {

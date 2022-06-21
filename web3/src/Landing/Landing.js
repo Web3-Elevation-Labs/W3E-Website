@@ -6,9 +6,8 @@ class Landing extends Component {
         return (
             <div className='landing'>
                 <div className='header'>
-                    <img src="./images/logo.png" className='landing_header_logo'/>
-                    <p className='landing_header_title'>W3E Labs Inc. <br></br>
-                    <span className='landing_header_subtitle_span'>Blockhain Consulting & Development</span></p>
+                    
+                    <p className='landing_header_title'>Web3 Elevation Labs</p>
                     <div className='landing_header_menu'>
                         <p>Services</p>
                         <p>About</p>
@@ -17,8 +16,9 @@ class Landing extends Component {
                     </div>
                 </div>
                 <div className='landing_showcase_wrapper'>
-                    <img src="./images/changeme.png" className='landing_showcase_img'/>
-                    <p className='landing_showcase_title'>NFT Development & Consulting</p>
+                    <img src="./images/logo.png" className='landing_showcase_logo'/>
+                    <p className='landing_showcase_title'>Gaming on the blockchain. Redesigned.</p>
+                    <p className='landing_showcase_content'>Our high-level team thrives off building innovative new projects with passionate individuals and organizations. We help develop and deploy your dream Web3 project with the highest level of customization and security.</p>
                 </div>
             </div>
         );
