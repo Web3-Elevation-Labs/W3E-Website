@@ -1,0 +1,34 @@
+/* fonts */
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("./fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("./fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url('./fonts/Roboto-Medium.ttf')
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url('./fonts/Roboto-Bold.ttf');
+}
+
+/* app styling */
+
+.App {
+  text-align: center;
+  position: relative;
+  background-color: #000;
+}
+
+* {
+  color: white;
+  font-family: 'Roboto-Medium';
+}
