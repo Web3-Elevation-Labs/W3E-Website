@@ -3,7 +3,6 @@ import './Services.css'
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css';
 
-
 class Services extends Component {
 
     render() {
