@@ -10,7 +10,7 @@ class Services extends Component {
             <div className='services' id="services">
                 <h1 className='services_title'>Development</h1>
                 <ScrollAnimation  animateIn='animate__fadeInRight' animateOnce='true' duration='1.5'>
-                    <div className='bb'></div>
+                    <div className='management_showcase_glow_img1'></div>
                     {/*<img src="./images/services_image.png" className='service_showcase_img'/>*/}
                 </ScrollAnimation>
                 <ScrollAnimation  animateIn='animate__fadeInLeft' animateOnce='true' duration='1.5'>
@@ -34,7 +34,6 @@ class Services extends Component {
                 <div className='management_title'>Management
                 <div className='management_showcase_glow_img2'></div>
                     <ScrollAnimation  animateIn='animate__fadeInLeft' animateOnce='true' duration='1.5'>
-                        <div className='management_showcase_glow_img1'></div>
                         {/*<img src="./images/services_image_2.png" className='management_showcase_img'/>*/}
                     </ScrollAnimation>
                     <ScrollAnimation  animateIn='animate__fadeInRight' animateOnce='true' duration='1.5'>
