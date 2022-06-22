@@ -1,14 +1,9 @@
 .footer {
     position: relative;
-    height: 900px;
+    height: 300px;
     color: #2a2825;
     z-index: 1;
     color: black;
-
-}
-
-.container {
-    padding-top: 550px;
 }
 
 
@@ -31,17 +26,6 @@ h1 {
     font-size: 20px;
 }
 
-
-.list-unstyled_1 {
-    position: absolute;
-    left: -45px;
-    top: 30px;
-    color: #3c3c3c;
-    font-family: "Aperco-Pro";
-    font-size: 15px;
-    list-style: none;
-    text-align: left;
-}
 
 .list-unstyled_2 {
     position: absolute;
@@ -66,6 +50,7 @@ h1 {
     text-align: left;
     width: 270px;
     line-height: 5px;
+    
 }
 
 .footer_address {
@@ -79,34 +64,36 @@ h1 {
     position: relative;
 }
 
-.column_1 {
-    color: black;
-    display: inline-block;
-    position: absolute;
-    left: 25%;
-    width: 100px;
-    text-align: left;
-}
 
 .column_2 {
     display: inline-block;
     position: absolute;
-    left: 40%;
-
+    left: 27%;
+    top: 10%;
+    
 }
 
 .column_3 {
     display: inline-block;
     position: absolute;
-    left: 55%;
+    left: 38%;
     width: 100px;
+    top: 10%;
 }
 
 .footer_copyright_text {
+    font-family: "Aperco-Pro";
     color: rgb(67, 67, 67);
     position: absolute;
-    bottom: 5%;
-    left: 25%;
+    bottom: 12%;
+    left: 13.5%;
+}
+
+.footer_logo {
+    position: absolute;
+    width: 120px;
+    left: 15%;
+    top: 10%;
 }
 
 h2 {

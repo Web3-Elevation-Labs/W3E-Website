@@ -1,5 +1,5 @@
 .landing {
-    height: 900px;
+    height: 850px;
     background-color: #FFF;
     color: #2a2825;
 }
@@ -86,8 +86,8 @@
 
 .landing_showcase_logo {
     position: relative;
-    height: 550px;
-    top: 200px;
+    height: 450px;
+    top: 280px;
     right: -16.5%;
 }
 
@@ -97,7 +97,7 @@
     letter-spacing: -0.3px;
     font-size: 50px;
     position: absolute;
-    top: 51%;
+    top: 61%;
     left: 15%;
     width: 650px;
     text-align: left;
@@ -114,5 +114,5 @@
     line-height: 36px;
     text-align: left;
     left: 15.2%;
-    top: 78%;
+    top: 94%;
 }

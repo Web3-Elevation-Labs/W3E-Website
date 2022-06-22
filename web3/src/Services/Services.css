@@ -2,11 +2,12 @@
     position: relative;
     margin-left: 100px;
     margin-right: 100px;
-    height: 1650px;
+    height: 850px;
     color: #2a2825;
     z-index: 1;
     text-align: left;
     font-family: 'Aperco-Pro-Bold';
+
 }
 
 .services_title {
@@ -15,11 +16,12 @@
     font-family: 'Aperco-Pro-Bold';
     color: #2a2825;
     font-size: 65px;
+    top: 10%;
 }
 
 .services_smart_contract {
     position: relative;
-    left: 15%;
+    left: 0.5%;
     top: 30px;
 }
 
@@ -28,7 +30,6 @@
     font-family: 'Aperco-Pro-Medium';
     color: #2a2825;
     font-size: 30px;
-    
 }
 
 .services_smart_contract_content {
@@ -42,7 +43,7 @@
 
 .services_frontend_development {
     position: relative;
-    left: 15%;
+    left: 0.5%;
     margin-top: 60px;
 }
 
@@ -65,7 +66,7 @@
 
 .services_web3_integration {
     position: relative;
-    left: 15%;
+    left: 0.5%;
     margin-top: 80px;
 }
 
@@ -85,35 +86,15 @@
     top: -10px;
 }
 
-.service_showcase_img {
-    position: absolute;
-    width: 500px;
-    right: 230px;
-}
-
-.management_title {
-    position: relative;
-    font-family: 'Aperco-Pro-Bold';
-    color: #2a2825;
-    font-size: 65px;
-    right: -52%;
-    top: 7.5%;
-}
-
-.management_showcase_img {
-    position: absolute;
-    width: 600px;
-    left: -40%;
-}
-
 .management_showcase_glow_img1 {
-    position: absolute;
+    position: relative;
     width: 300px;
     height: 300px;
-    left: 67%;
-    top: 18%;
+    left: 60%;
+    transform: translateX(-250px);
+    bottom: 500px;
     border-radius: 50%;
-    animation: glow_ball 30s infinite;
+    animation: glow_ball 10s infinite;
     animation-direction: alternate;
     box-shadow:
       inset 0 0 50px #fff,      /* inner white */
@@ -124,6 +105,7 @@
       -10px 0 80px #f0f,        /* outer left magenta */
       10px 0 80px #0ff;         /* outer right cyan */
 }
+
 
 @keyframes glow_ball {
     0% {

@@ -5,14 +5,17 @@ import Landing from './Landing/Landing';
 import Services from './Services/Services';
 import Footer from './Footer/Footer';
 import Projects from './Projects/Projects';
+import Management from './Management/Management';
 
 function App() {
   return (
     <div className="App">
-      <Landing/>
-      <Services/>
-      <Projects/>
-      <Footer/>
+  
+        <Landing/>
+        <Services/>
+        <Management/>
+        <Projects/>
+        <Footer/>
     </div>
   );
 }

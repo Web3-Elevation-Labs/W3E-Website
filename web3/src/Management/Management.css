@@ -1,0 +1,124 @@
+.management {
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 850px;
+    color: #2a2825;
+    z-index: 1;
+    text-align: left;
+    font-family: 'Aperco-Pro-Bold';
+
+}
+
+.management_title {
+    position: relative;
+    font-family: 'Aperco-Pro-Bold';
+    color: #2a2825;
+    font-size: 65px;
+    right: -52%;
+    top: 20%;
+}
+
+.management_img {
+    position: relative;
+    width: 440px;
+    bottom: 490px;
+    left: -40%;
+}
+
+.community_management {
+    position: relative;
+    width: fit-content;
+    right: -0.5%;
+    top: 30px;
+}
+
+.community_management_title {
+    position: relative;
+    font-family: 'Aperco-Pro-Medium';
+    color: #2a2825;
+    font-size: 30px;
+}
+
+.community_management_content {
+    position: relative;
+    font-family: 'Aperco-Pro';
+    color: #3c3c3c;
+    width: 500px;
+    font-size: 20px;
+    top: -10px;
+}
+
+.growth_management {
+    position: relative;
+    width: fit-content;
+    right: -0.5%;
+    margin-top: 80px;
+}
+
+.growth_management_title {
+    position: relative;
+    font-family: 'Aperco-Pro-Medium';
+    color: #2a2825;
+    font-size: 30px;
+}
+
+.growth_management_content {
+    position: relative;
+    font-family: 'Aperco-Pro';
+    color: #3c3c3c;
+    width: 500px;
+    font-size: 20px;
+    top: -10px;
+}
+
+
+
+
+
+
+
+
+
+.bb, .bb::before, .bb::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.bb {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: url('//blog.codepen.io/wp-content/uploads/2012/06/Button-White-Large.png') no-repeat 50% / 70% rgb(0, 0, 0, 0.5);
+    color: #f0f;
+    box-shadow: inset 0 0 0 1px #f0f;
+    left: 40%;
+    bottom: 55%;
+}
+.bb::before, .bb::after {
+    content: '';
+    z-index: -1;
+    margin: -5%;
+    box-shadow: inset 0 0 0 2px;
+    animation: clipMe 30s linear infinite;
+}
+
+.bb::before {
+    animation-delay: -15s;
+}
+@keyframes clipMe {
+    0%, 100% {
+        clip: rect(0px, 220px, 2px, 0px);
+   }
+    25% {
+        clip: rect(0px, 2px, 220px, 0px);
+   }
+    50% {
+        clip: rect(218px, 200px, 220px, 0px);
+   }
+    75% {
+        clip: rect(0px, 220px, 220px, 218px);
+   }
+}

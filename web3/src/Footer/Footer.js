@@ -1,23 +1,13 @@
 import React, { Component } from 'react';
 import './Footer.css'
-import {twitterRedirect} from '../Utils/Redirects'
-import {linkedinRedirect} from '../Utils/Redirects'
-import {thugcitywebsiteRedirect} from '../Utils/Redirects'
-import {w3eofficeRedirect} from '../Utils/Redirects'
+import {emailRedirect, twitterRedirect, linkedinRedirect, w3eofficeRedirect} from '../Utils/Redirects'
 
 class Footer extends Component {
 
     render() {
         return (
             <div className='footer' id='footer'>
-                <div className='container'>
-                 <div className='column_1'>
-                        <h1> Work </h1>
-                        <ul className='list-unstyled_1'>
-                            <li onClick={() => {thugcitywebsiteRedirect()}}> ThugCity </li>
-                            <li> Careers </li>
-                        </ul>
-                    </div>
+                
                 <div className='column_2'>
                         <h1> Follow us </h1>
                         <ul className='list-unstyled_2'>
@@ -29,14 +19,14 @@ class Footer extends Component {
                     <div className='column_3'>
                         <h1> Contact Us </h1>
                         <ul className='list-unstyled_3'>
-                            <li className='footer_email'> admin@w3elabs.com </li>
+                            <li className='footer_email' onClick={() => {emailRedirect()}}> admin@w3elabs.com </li>
                             <li className='footer_address' onClick={() => {w3eofficeRedirect()}}> 1988 Triumph Street<br></br>Vancouver, British Columbia<br></br>Canada </li>
                         </ul>
                     </div>
-                </div> 
-                <div className='footer_copyright_text'>
-                        <h2> © 2022 Web3 Elevation labs, Inc. </h2>
-                    </div>
+                <img src="./images/logo.png" className='footer_logo'/>
+                <div className='footer_copyright_text' >
+                        <h2> © 2022 Web3 Elevation Labs Inc. </h2>
+                </div>
             </div> 
  
                     

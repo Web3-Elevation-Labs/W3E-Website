@@ -11,9 +11,9 @@ class Landing extends Component {
                     <p className='landing_header_subtitle'>The future is here.</p>
                     <div className='landing_header_menu'>
                         <li><Link to="landing" activeClass="active" spy={true} smooth={true} offset={0}>Home</Link></li>
-                        <li><Link to="services" spy={true} smooth={true} offset={-130} >Services</Link></li>
-                        <li><Link to="about" spy={true} smooth={true} offset={-130} >About</Link></li>
-                        <li><Link to="projects" spy={true} smooth={true} offset={-130} >Projects</Link></li>
+                        <li><Link to="services" spy={true} smooth={true} offset={-85} >Development</Link></li>
+                        <li><Link to="management" spy={true} smooth={true} offset={-100} >Management</Link></li>
+                        <li><Link to="projects" spy={true} smooth={true} offset={-140} >Projects</Link></li>
                         <li><Link to="footer" spy={true} smooth={true} offset={0} >Contact Us</Link></li>
                     </div>
                 </div>

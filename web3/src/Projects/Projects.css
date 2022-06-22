@@ -2,11 +2,13 @@
     position: relative;
     margin-left: 100px;
     margin-right: 100px;
-    height: 2000px;
+    height:1350px;
     color: #2a2825;
     z-index: 1;
     text-align: left;
     font-family: 'Aperco-Pro-Bold';
+    scroll-snap-align: start;
+    left: 3%;
 }
 
 .projects_title {
@@ -19,7 +21,7 @@
 
 .projects_thugcity {
     position: relative;
-    left: 15%;
+    left: 20%;
     top: 30px;
 }
 
@@ -36,42 +38,28 @@
     position: relative;
     font-family: 'Aperco-Pro';
     color: #3c3c3c;
-    width: 500px;
+    width: 450px;
     font-size: 20px;
     top: 60px;
 }
 
-.projects_thugcity_city_img {
-    position: absolute;
-    width: 500px;
-    right: 35%;
-    top: -40%;
-}
-
-.projects_thugcity_thug_img {
-    position: absolute;
-    width: 200px;
-    left: 230px;
-    top: 320px;
-}
-
-.projects_thugcity_cop_img {
-    position: absolute;
-    width: 200px;
-    left: 550px;
-    top: 320px;
+.projects_thugcity_img {
+    position: relative;
+    width: 300px;
+    left: 34%;
+    bottom: 220px;
 }
 
 .projects_thugcity_website_button {
     position: relative;
     top: 60px;
-    left: 120px;
+    left: 6%;
     width: 200px;
     height: 50px;
     border-radius: 15px;
     font-family: 'Aperco-Pro-Medium';
     color: #2a2825;
-    font-size: 20px;;
+    font-size: 20px;
 }
 
 .projects_thugcity_website_button:hover {
@@ -80,8 +68,8 @@
 
 .projects_w3gp {
     position: relative;
-    left: 15%;
-    top: 15%;
+    left: 20%;
+    top: -12%;
 }
 
 .projects_w3gp_title {
@@ -90,30 +78,72 @@
     color: #2a2825;
     font-size: 30px;
     top: 50px;
-    right: -35%;
-    
 }
 
 .projects_w3gp_content {
     position: relative;
     font-family: 'Aperco-Pro';
     color: #3c3c3c;
-    width: 500px;
+    width: 450px;
     font-size: 20px;
     top: 60px;
-    right: -35%;
 }
 
 .projects_w3gp_img {
-    position: absolute;
-    width: 500px;
-    top: -40%;
+    position: relative;
+    width: 300px;
+    bottom: 220px;
+    left: 34%;
 }
 
 .projects_w3gp_website_button {
     position: relative;
+    top: 70px;
+    left: 6%;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-family: 'Aperco-Pro-Medium';
+    color: #2a2825;
+    font-size: 20px;;
+}
+
+
+.projects_quickchips {
+    position: relative;
+    left: 20%;
+    top: -27%;
+}
+
+.projects_quickchips_title {
+    position: relative;
+    font-family: 'Aperco-Pro-Medium';
+    color: #2a2825;
+    font-size: 30px;
+    top: 50px;
+}
+
+.projects_quickchips_content {
+    position: relative;
+    font-family: 'Aperco-Pro';
+    color: #3c3c3c;
+    width: 450px;
+    font-size: 20px;
     top: 60px;
-    right: -42%;
+
+}
+
+.projects_quickchips_img {
+    position: relative;
+    width: 150px;
+    bottom: 200px;
+    left: 38.5%;
+}
+
+.projects_quickchips_website_button {
+    position: relative;
+    top: 70px;
+    left: 6%;
     width: 200px;
     height: 50px;
     border-radius: 15px;
