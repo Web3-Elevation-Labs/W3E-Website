@@ -61,6 +61,7 @@ body {
   background-color: #FFF;
   overflow: hidden;
   height: 6000px;
+  scroll-snap-type: y mandatory;
 }
 
 * {

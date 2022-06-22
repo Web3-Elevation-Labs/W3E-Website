@@ -7,12 +7,13 @@ import Footer from './Footer/Footer';
 import Projects from './Projects/Projects';
 
 function App() {
+
   return (
     <div className="App">
-      <Landing/>
-      <Services/>
-      <Projects/>
-      <Footer/>
+      <div><Landing/></div>
+      <div><Services/></div>
+      <div><Projects/></div>
+      <div><Footer/></div>
     </div>
   );
 }
