@@ -121,7 +121,6 @@
       inset -20px 0 80px #0ff,  /* inner right cyan short */
       inset 20px 0 300px #f0f,  /* inner left magenta broad */
       inset -20px 0 300px #0ff, /* inner right cyan broad */
-      0 0 50px #fff,            /* outer white */
       -10px 0 80px #f0f,        /* outer left magenta */
       10px 0 80px #0ff;         /* outer right cyan */
 }
@@ -134,7 +133,6 @@
             inset -20px 0 80px #0ff,  /* inner right cyan short */
             inset 20px 0 300px #f0f,  /* inner left magenta broad */
             inset -20px 0 300px #0ff, /* inner right cyan broad */
-            0 0 50px #fff,            /* outer white */
             -10px 0 80px #f0f,        /* outer left magenta */
             10px 0 80px #0ff;         /* outer right cyan */
     }
@@ -145,7 +143,6 @@
             inset -20px 0 80px #0ff,  /* inner right cyan short */
             inset 20px 0 300px #2d2fa9,  /* inner left magenta broad */
             inset -20px 0 300px #0ff, /* inner right cyan broad */
-            0 0 50px #fff,            /* outer white */
             -10px 0 80px #2d2fa9,        /* outer left magenta */
             10px 0 80px #0ff;         /* outer right cyan */
     }
@@ -156,7 +153,6 @@
             inset -20px 0 80px #0008ff,  /* inner right cyan short */
             inset 20px 0 300px #e40f8f,  /* inner left magenta broad */
             inset -20px 0 300px #0008ff, /* inner right cyan broad */
-            0 0 50px #fff,            /* outer white */
             -10px 0 80px #e40f8f,        /* outer left magenta */
             10px 0 80px #0008ff;         /* outer right cyan */
     }
