@@ -2,7 +2,7 @@
     position: relative;
     margin-left: 100px;
     margin-right: 100px;
-    height: 2000px;
+    height: 1650px;
     color: #2a2825;
     z-index: 1;
     text-align: left;
@@ -11,7 +11,7 @@
 
 .services_title {
     position: relative;
-    left: 14%;
+    left: 14.5%;
     font-family: 'Aperco-Pro-Bold';
     color: #2a2825;
     font-size: 65px;
@@ -88,7 +88,7 @@
 .service_showcase_img {
     position: absolute;
     width: 500px;
-    right: 160px;
+    right: 230px;
 }
 
 .management_title {
@@ -103,7 +103,7 @@
 .management_showcase_img {
     position: absolute;
     width: 600px;
-    left: -45%;
+    left: -40%;
 }
 
 .management_showcase_glow_img1 {
@@ -165,7 +165,7 @@
 .community_management {
     position: relative;
     width: fit-content;
-    right: -1%;
+    right: -0.5%;
     top: 30px;
 }
 
@@ -188,7 +188,7 @@
 .growth_management {
     position: relative;
     width: fit-content;
-    right: -1%;
+    right: -0.5%;
     margin-top: 80px;
 }
 

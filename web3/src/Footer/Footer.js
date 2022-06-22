@@ -9,7 +9,7 @@ class Footer extends Component {
 
     render() {
         return (
-            <div className='footer'>
+            <div className='footer' id='footer'>
                 <div className='container'>
                  <div className='column_1'>
                         <h1> Work </h1>
@@ -29,8 +29,8 @@ class Footer extends Component {
                     <div className='column_3'>
                         <h1> Contact Us </h1>
                         <ul className='list-unstyled_3'>
-                            <li> Admin@w3elabs.com </li>
-                            <li onClick={() => {w3eofficeRedirect()}}> 1988 Triumph St, B.C, Canada </li>
+                            <li className='footer_email'> admin@w3elabs.com </li>
+                            <li className='footer_address' onClick={() => {w3eofficeRedirect()}}> 1988 Triumph Street<br></br>Vancouver, British Columbia<br></br>Canada </li>
                         </ul>
                     </div>
                 </div> 

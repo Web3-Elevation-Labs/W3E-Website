@@ -22,12 +22,29 @@
     float: left;
     color: #2a2825;
     letter-spacing: -0.9px;
-    top: 16%;
+    top: 45px;
     font-size: 33px;
-    font-family: 'Aperco-Pro-Bold';
+    font-family: 'Aperco-Pro-Medium';
     line-height: 24px;
 }
 
+.landing_header_title:hover {
+    cursor: pointer;
+}
+
+.landing_header_subtitle {
+    position: relative;
+    left: -2.8%;
+    width: fit-content;
+    text-align: left;
+    display: inline;
+    float: left;
+    color: #3c3c3c;
+    letter-spacing: -0.75px;
+    top: 48%;
+    font-size: 16.5px;
+    font-family: 'Aperco-Pro';
+}
 
 .landing_header_menu {
     position: relative;
@@ -42,14 +59,14 @@
     float: left;
     color: #2a2825;
     letter-spacing: -0.3px;
-    font-family: 'Aperco-Pro';
+    font-family: 'Aperco-Pro-Medium';
     margin-left: 20px;
     margin-right: 20px;
     font-size: 15px;
 }
 
 .landing_header_menu a {
-    font-family: 'Aperco-Pro';
+    font-family: 'Aperco-Pro-Medium';
     color: #2a2825;
 }
 
@@ -69,9 +86,9 @@
 
 .landing_showcase_logo {
     position: relative;
-    height: 600px;
+    height: 550px;
     top: 200px;
-    right: -20%;
+    right: -16.5%;
 }
 
 .landing_showcase_title {
@@ -80,10 +97,11 @@
     letter-spacing: -0.3px;
     font-size: 50px;
     position: absolute;
-    top: 45%;
+    top: 51%;
     left: 15%;
     width: 650px;
     text-align: left;
+    line-height: 55px;
 }
 
 .landing_showcase_content {
@@ -95,6 +113,6 @@
     width: 500px;
     line-height: 36px;
     text-align: left;
-    left: 15%;
-    top: 70%;
+    left: 15.2%;
+    top: 78%;
 }

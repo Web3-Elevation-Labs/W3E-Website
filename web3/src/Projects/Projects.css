@@ -1,0 +1,123 @@
+.projects {
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 2000px;
+    color: #2a2825;
+    z-index: 1;
+    text-align: left;
+    font-family: 'Aperco-Pro-Bold';
+}
+
+.projects_title {
+    position: relative;
+    left: 14.5%;
+    font-family: 'Aperco-Pro-Bold';
+    color: #2a2825;
+    font-size: 65px;
+}
+
+.projects_thugcity {
+    position: relative;
+    left: 15%;
+    top: 30px;
+}
+
+.projects_thugcity_title {
+    position: relative;
+    font-family: 'Aperco-Pro-Medium';
+    color: #2a2825;
+    font-size: 30px;
+    top: 50px;
+    
+}
+
+.projects_thugcity_content {
+    position: relative;
+    font-family: 'Aperco-Pro';
+    color: #3c3c3c;
+    width: 500px;
+    font-size: 20px;
+    top: 60px;
+}
+
+.projects_thugcity_city_img {
+    position: absolute;
+    width: 500px;
+    right: 35%;
+    top: -40%;
+}
+
+.projects_thugcity_thug_img {
+    position: absolute;
+    width: 200px;
+    left: 230px;
+    top: 320px;
+}
+
+.projects_thugcity_cop_img {
+    position: absolute;
+    width: 200px;
+    left: 550px;
+    top: 320px;
+}
+
+.projects_thugcity_website_button {
+    position: relative;
+    top: 60px;
+    left: 120px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-family: 'Aperco-Pro-Medium';
+    color: #2a2825;
+    font-size: 20px;;
+}
+
+.projects_thugcity_website_button:hover {
+    cursor: pointer;
+}
+
+.projects_w3gp {
+    position: relative;
+    left: 15%;
+    top: 15%;
+}
+
+.projects_w3gp_title {
+    position: relative;
+    font-family: 'Aperco-Pro-Medium';
+    color: #2a2825;
+    font-size: 30px;
+    top: 50px;
+    right: -35%;
+    
+}
+
+.projects_w3gp_content {
+    position: relative;
+    font-family: 'Aperco-Pro';
+    color: #3c3c3c;
+    width: 500px;
+    font-size: 20px;
+    top: 60px;
+    right: -35%;
+}
+
+.projects_w3gp_img {
+    position: absolute;
+    width: 500px;
+    top: -40%;
+}
+
+.projects_w3gp_website_button {
+    position: relative;
+    top: 60px;
+    right: -42%;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-family: 'Aperco-Pro-Medium';
+    color: #2a2825;
+    font-size: 20px;;
+}

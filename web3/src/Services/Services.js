@@ -8,7 +8,7 @@ class Services extends Component {
     render() {
         return (
             <div className='services' id="services">
-                <h1 className='services_title'>Development Services</h1>
+                <h1 className='services_title'>Development</h1>
                 <ScrollAnimation  animateIn='animate__fadeInRight' animateOnce='true' duration='1.5'>
                     <div className='bb'></div>
                     {/*<img src="./images/services_image.png" className='service_showcase_img'/>*/}
@@ -31,7 +31,7 @@ class Services extends Component {
                         <p className='services_frontend_development_content'>We develop and optimize front-end platforms with a priority on usability and a sleek user interface. At the end of the day, an application is only as satisfactory as the interface.</p>
                     </div>
                 </ScrollAnimation>
-                <div className='management_title'>Management Services
+                <div className='management_title'>Management
                 <div className='management_showcase_glow_img2'></div>
                     <ScrollAnimation  animateIn='animate__fadeInLeft' animateOnce='true' duration='1.5'>
                         <div className='management_showcase_glow_img1'></div>
