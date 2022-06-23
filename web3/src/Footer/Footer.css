@@ -103,3 +103,29 @@ h2 {
 }
 
 
+@media only screen and (max-width: 1500px) {
+    .column_2 {
+        left: 40%;
+    }
+    .column_3 {
+        left: 60%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .footer_logo {
+        left: 5%;
+    }
+    .column_3 {
+        left: 65%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .column_2 {
+        display: none;
+    }
+    .column_3 {
+        left: 45%;
+    }
+}

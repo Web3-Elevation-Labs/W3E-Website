@@ -58,8 +58,9 @@
     height: 50px;
     border-radius: 15px;
     font-family: 'Aperco-Pro-Medium';
-    color: #2a2825;
+    color: #2e2e2e;
     font-size: 20px;
+    background-color: #ededed;
 }
 
 .projects_thugcity_website_button:hover {
@@ -104,8 +105,9 @@
     height: 50px;
     border-radius: 15px;
     font-family: 'Aperco-Pro-Medium';
-    color: #2a2825;
-    font-size: 20px;;
+    color: #2e2e2e;
+    font-size: 20px;
+    background-color: #ededed;
 }
 
 
@@ -148,6 +150,192 @@
     height: 50px;
     border-radius: 15px;
     font-family: 'Aperco-Pro-Medium';
-    color: #2a2825;
+    color: #2e2e2e;
     font-size: 20px;;
+    background-color: #ededed;
+}
+
+@media only screen and (max-width: 1500px) {
+    .projects_thugcity_img {
+        left: 65%;
+    }
+    .projects_w3gp_img {
+        left: 65%;
+    }
+    .projects_quickchips_img {
+        left: 73%;
+    }
+    .projects_thugcity {
+        left: 5%
+    }
+    .projects_quickchips {
+        left: 5%;
+    }
+    .projects_w3gp {
+        left: 5%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .projects_thugcity {
+        left: -5%;
+    }
+    .projects_quickchips {
+        left: -5%;
+    }
+    .projects_w3gp {
+        left: -5%;
+    }
+    .projects_thugcity_img {
+        left: 70%;
+    }
+    .projects_quickchips_img {
+        left: 80%;
+    }
+    .projects_w3gp_img {
+        left: 70%
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .projects_title {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+    .projects_thugcity_content {
+        width: 250px;
+    }
+    .projects_w3gp_content {
+        width: 250px;
+    }
+    .projects_quickchips_content {
+        width: 250px;
+    }
+    .projects_thugcity_img {
+        left: 60%;
+    }
+    .projects_w3gp_img {
+        left: 60%;
+    }
+    .projects_quickchips_img {
+        left: 75%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .projects_thugcity {
+        left: -15%;
+    }
+    .projects_w3gp {
+        top: -60px;
+        left: -15%;
+    }
+    .projects_quickchips {
+        left: -15%;
+        top: -140px;
+    }
+    .projects_thugcity_img {
+        width: 40%;
+        bottom: 150px;
+        left: 85%;
+    }
+    .projects_w3gp_img {
+        width: 40%;
+        bottom: 150px;
+        left: 85%;
+    }
+    .projects_quickchips_img {
+        width: 25%;
+        bottom: 150px;
+        left: 93%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .projects {
+        top: 3%;
+    }
+    .projects_thugcity_img {
+        display: none;
+    }
+    .projects_w3gp_img {
+        display: none;
+    }
+    .projects_quickchips_img {
+        display: none;
+    }
+    .projects_thugcity {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: -30px;
+    }
+    .projects_thugcity_content {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+    .projects_thugcity_website_button {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+    .projects_w3gp {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 80px;
+    }
+    .projects_w3gp_title {
+        top: -40px;
+    }
+    .projects_w3gp_content {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: -30px;
+    }
+    .projects_w3gp_website_button {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: -30px;
+    }
+    .projects_quickchips {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 20px;
+    }
+    .projects_quickchips_content {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+    .projects_quickchips_website_button {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
 }
