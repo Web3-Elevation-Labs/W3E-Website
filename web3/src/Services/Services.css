@@ -186,53 +186,85 @@
     top: -10px;
 }
 
-
-
-
-
-
-
-
-
-.bb, .bb::before, .bb::after {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-.bb {
-    width: 200px;
-    height: 200px;
-    margin: auto;
-    background: url('//blog.codepen.io/wp-content/uploads/2012/06/Button-White-Large.png') no-repeat 50% / 70% rgb(0, 0, 0, 0.5);
-    color: #f0f;
-    box-shadow: inset 0 0 0 1px #f0f;
-    left: 40%;
-    bottom: 55%;
-}
-.bb::before, .bb::after {
-    content: '';
-    z-index: -1;
-    margin: -5%;
-    box-shadow: inset 0 0 0 2px;
-    animation: clipMe 30s linear infinite;
+@media only screen and (max-width: 1600px) {
+    .services_title {
+        left: 0%;
+    }
+    .management_showcase_glow_img1 {
+        left: 95%;
+    }
 }
 
-.bb::before {
-    animation-delay: -15s;
+@media only screen and (max-width: 1200px) {
+    .management_showcase_glow_img1 {
+        width: 200px;
+        height: 200px;
+        left: 105%;
+        bottom: 400px;
+    }
+    .services_title {
+        left: 0%;
+    }
 }
-@keyframes clipMe {
-    0%, 100% {
-        clip: rect(0px, 220px, 2px, 0px);
-   }
-    25% {
-        clip: rect(0px, 2px, 220px, 0px);
-   }
-    50% {
-        clip: rect(218px, 200px, 220px, 0px);
-   }
-    75% {
-        clip: rect(0px, 220px, 220px, 218px);
-   }
+
+@media only screen and (max-width: 950px) {
+    .management_showcase_glow_img1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .services_title {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .services_smart_contract_content {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        width: 400px;
+    }
+    .services_frontend_development_content {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        width: 400px;
+    }
+    .services_web3_integration_content {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .services_smart_contract_content {
+        width: 300px;
+    }
+    .services_frontend_development_content {
+        width: 300px;
+    }
+    .services_web3_integration_content {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .services_smart_contract_content {
+        width: 250px;
+    }
+    .services_frontend_development_content {
+        width: 250px;
+    }
+    .services_web3_integration_content {
+        width: 250px;
+    }
 }
