@@ -13,8 +13,9 @@ class Landing extends Component {
                         <li><Link to="landing" activeClass="active" spy={true} smooth={true} offset={0}>Home</Link></li>
                         <li><Link to="services" spy={true} smooth={true} offset={-85} >Development</Link></li>
                         <li><Link to="management" spy={true} smooth={true} offset={-100} >Management</Link></li>
+                        <li><Link to="about" spy={true} smooth={true} offset={-165} >About</Link></li>
+                        <li><Link to="process" spy={true} smooth={true} offset={-245} >Process</Link></li>
                         <li><Link to="projects" spy={true} smooth={true} offset={-140} >Projects</Link></li>
-                        <li><Link to="footer" spy={true} smooth={true} offset={0} >Contact Us</Link></li>
                     </div>
                 </div>
                 <div className='landing_showcase_wrapper'>

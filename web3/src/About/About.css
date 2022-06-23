@@ -1,0 +1,206 @@
+.about {
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 900px;
+    color: #2a2825;
+    z-index: 1;
+    text-align: left;
+    font-family: 'Aperco-Pro-Bold';
+
+}
+
+.about_title {
+    position: relative;
+    left: 14.5%;
+    font-family: 'Aperco-Pro-Bold';
+    color: #2a2825;
+    font-size: 65px;
+    
+}
+
+.about_blockchain {
+    position: relative;
+    left: 0.5%;
+    top: 20px;
+}
+
+.about_blockchain_title {
+    position: relative;
+    font-family: 'Aperco-Pro-Medium';
+    color: #2a2825;
+    font-size: 30px;
+}
+
+.about_blockchain_content {
+    position: relative;
+    font-family: 'Aperco-Pro';
+    color: #3c3c3c;
+    width: 500px;
+    font-size: 18px;
+    top: -10px;
+}
+
+.about_transparency {
+    position: relative;
+    left: 0.5%;
+    margin-top: 30px;
+}
+
+.about_transparency_title {
+    position: relative;
+    font-family: 'Aperco-Pro-Medium';
+    color: #2a2825;
+    font-size: 30px;
+    
+}
+
+.about_transparency_content {
+    position: relative;
+    font-family: 'Aperco-Pro';
+    color: #3c3c3c;
+    width: 500px;
+    font-size: 18px;
+    top: -10px;
+}
+
+.about_flexible {
+    position: relative;
+    left: 0.5%;
+    margin-top: 50px;
+}
+
+.about_flexible_title {
+    position: relative;
+    font-family: 'Aperco-Pro-Medium';
+    color: #2a2825;
+    font-size: 30px;
+}
+
+.about_flexible_content {
+    position: relative;
+    font-family: 'Aperco-Pro';
+    color: #3c3c3c;
+    width: 500px;
+    font-size: 18px;
+    top: -10px;
+}
+
+.about_security {
+    position: relative;
+    left: 0.5%;
+    margin-top: 30px;
+}
+
+.about_security_title {
+    position: relative;
+    font-family: 'Aperco-Pro-Medium';
+    color: #2a2825;
+    font-size: 30px;
+}
+
+.about_security_content {
+    position: relative;
+    font-family: 'Aperco-Pro';
+    color: #3c3c3c;
+    width: 500px;
+    font-size: 18px;
+    top: -10px;
+}
+
+.management_showcase_glow_img1 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    left: 60%;
+    transform: translateX(-250px);
+    bottom: 500px;
+    border-radius: 50%;
+    animation: glow_ball 10s infinite;
+    animation-direction: alternate;
+    box-shadow:
+      inset 0 0 50px #fff,      /* inner white */
+      inset 20px 0 80px #f0f,   /* inner left magenta short */
+      inset -20px 0 80px #0ff,  /* inner right cyan short */
+      inset 20px 0 300px #f0f,  /* inner left magenta broad */
+      inset -20px 0 300px #0ff, /* inner right cyan broad */
+      -10px 0 80px #f0f,        /* outer left magenta */
+      10px 0 80px #0ff;         /* outer right cyan */
+}
+
+
+@keyframes glow_ball {
+    0% {
+        box-shadow:
+            inset 0 0 50px #fff,      /* inner white */
+            inset 20px 0 80px #f0f,   /* inner left magenta short */
+            inset -20px 0 80px #0ff,  /* inner right cyan short */
+            inset 20px 0 300px #f0f,  /* inner left magenta broad */
+            inset -20px 0 300px #0ff, /* inner right cyan broad */
+            -10px 0 80px #f0f,        /* outer left magenta */
+            10px 0 80px #0ff;         /* outer right cyan */
+    }
+    50% {
+        box-shadow:
+            inset 0 0 50px #fff,      /* inner white */
+            inset 20px 0 80px #2d2fa9,   /* inner left magenta short */
+            inset -20px 0 80px #0ff,  /* inner right cyan short */
+            inset 20px 0 300px #2d2fa9,  /* inner left magenta broad */
+            inset -20px 0 300px #0ff, /* inner right cyan broad */
+            -10px 0 80px #2d2fa9,        /* outer left magenta */
+            10px 0 80px #0ff;         /* outer right cyan */
+    }
+    100% {
+        box-shadow:
+            inset 0 0 50px #fff,      /* inner white */
+            inset 20px 0 80px #e40f8f,   /* inner left magenta short */
+            inset -20px 0 80px #0008ff,  /* inner right cyan short */
+            inset 20px 0 300px #e40f8f,  /* inner left magenta broad */
+            inset -20px 0 300px #0008ff, /* inner right cyan broad */
+            -10px 0 80px #e40f8f,        /* outer left magenta */
+            10px 0 80px #0008ff;         /* outer right cyan */
+    }
+}
+
+.bb, .bb::before, .bb::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.bb {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background: url('//blog.codepen.io/wp-content/uploads/2012/06/Button-White-Large.png') no-repeat 50% / 70% rgb(0, 0, 0, 0.5);
+    color: #f0f;
+    box-shadow: inset 0 0 0 1px #f0f;
+    left: 40%;
+    bottom: 55%;
+}
+.bb::before, .bb::after {
+    content: '';
+    z-index: -1;
+    margin: -5%;
+    box-shadow: inset 0 0 0 2px;
+    animation: clipMe 30s linear infinite;
+}
+
+.bb::before {
+    animation-delay: -15s;
+}
+@keyframes clipMe {
+    0%, 100% {
+        clip: rect(0px, 220px, 2px, 0px);
+   }
+    25% {
+        clip: rect(0px, 2px, 220px, 0px);
+   }
+    50% {
+        clip: rect(218px, 200px, 220px, 0px);
+   }
+    75% {
+        clip: rect(0px, 220px, 220px, 218px);
+   }
+}

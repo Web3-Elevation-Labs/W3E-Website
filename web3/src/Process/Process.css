@@ -1,0 +1,130 @@
+.process {
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 700px;
+    color: #2a2825;
+    z-index: 1;
+    text-align: center;
+    font-family: 'Aperco-Pro-Bold';
+}
+
+.process_title {
+    position: relative;
+    font-family: 'Aperco-Pro-Bold';
+    color: #2a2825;
+    font-size: 65px;
+    top:-10%;
+}
+
+.process_blockchain {
+    position: relative;
+    left: 20%;
+    width: 450px;
+    height: 200px;
+    top: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.process_blockchain_title {
+    position: relative;
+    font-family: 'Aperco-Pro-Medium';
+    color: #2a2825;
+    font-size: 30px;
+}
+
+.process_blockchain_content {
+    position: relative;
+    font-family: 'Aperco-Pro';
+    color: #3c3c3c;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 20px;
+    top: -15px;
+}
+
+.process_flexible {
+    position: relative;
+    width: 450px;
+    height: 200px;
+    left: 55%;
+    top: -155px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.process_flexible_title {
+    position: relative;
+    font-family: 'Aperco-Pro-Medium';
+    color: #2a2825;
+    font-size: 30px;
+}
+
+.process_flexible_content {
+    position: relative;
+    font-family: 'Aperco-Pro';
+    color: #3c3c3c;
+    font-size: 20px;
+    top: -15px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.process_transparency {
+    position: relative;
+    left: 20%;
+    width: 450px;
+    height: 200px;
+    top: -85px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.process_transparency_title {
+    position: relative;
+    font-family: 'Aperco-Pro-Medium';
+    color: #2a2825;
+    font-size: 30px;
+}
+
+.process_transparency_content {
+    position: relative;
+    font-family: 'Aperco-Pro';
+    color: #3c3c3c;
+    font-size: 20px;
+    width: 400px;
+    margin: 0 auto;
+    top: -15px;
+}
+
+.process_security {
+    position: relative;
+    left: 55%;
+    width: 450px;
+    height: 200px;
+    top: -290px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.process_security_title {
+    position: relative;
+    font-family: 'Aperco-Pro-Medium';
+    color: #2a2825;
+    font-size: 30px;
+}
+
+.process_security_content {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    font-family: 'Aperco-Pro';
+    color: #3c3c3c;
+    font-size: 20px;
+    top: -15px;
+}
+
+.process_img {
+
+}

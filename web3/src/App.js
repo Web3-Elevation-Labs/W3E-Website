@@ -6,6 +6,8 @@ import Services from './Services/Services';
 import Footer from './Footer/Footer';
 import Projects from './Projects/Projects';
 import Management from './Management/Management';
+import About from './About/About';
+import Process from './Process/Process';
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
         <Landing/>
         <Services/>
         <Management/>
+        <About/>
+        <Process/>
         <Projects/>
         <Footer/>
     </div>
