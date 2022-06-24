@@ -116,6 +116,12 @@ h2 {
     }
 }
 
+@media only screen and (max-width: 1400px) {
+    .footer {
+        top: 5%;
+    }
+}
+
 @media only screen and (max-width: 850px) {
     .footer {
         top: 17.5%;
