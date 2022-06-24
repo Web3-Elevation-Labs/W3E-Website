@@ -10,6 +10,13 @@
 
 }
 
+.about_img {
+    position: absolute;
+    width: 45%;
+    top: 23%;
+    left: 36%;
+}
+
 .about_title {
     position: relative;
     left: 14.5%;

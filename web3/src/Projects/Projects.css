@@ -50,6 +50,14 @@
     bottom: 220px;
 }
 
+.projects_thugcity_img1 {
+    opacity: 0;
+    position: absolute;
+    width: 300px;
+    left: 34%;
+    bottom: 220px;
+}
+
 .projects_thugcity_website_button {
     position: relative;
     top: 60px;
@@ -97,6 +105,14 @@
     left: 34%;
 }
 
+.projects_w3gp_img1 {
+    opacity: 0;
+    position: absolute;
+    width: 300px;
+    bottom: 220px;
+    left: 34%;
+}
+
 .projects_w3gp_website_button {
     position: relative;
     top: 70px;
@@ -137,6 +153,14 @@
 
 .projects_quickchips_img {
     position: relative;
+    width: 150px;
+    bottom: 200px;
+    left: 38.5%;
+}
+
+.projects_quickchips_img1 {
+    opacity: 0;
+    position: absolute;
     width: 150px;
     bottom: 200px;
     left: 38.5%;
@@ -198,6 +222,9 @@
 }
 
 @media only screen and (max-width: 850px) {
+    .projects {
+        top: 4%;
+    }
     .projects_title {
         text-align: center;
         margin-left: auto;
@@ -254,15 +281,65 @@
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .projects_title {
+        font-size: 50px;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     .projects {
-        top: 3%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 10%;
+    }
+    .projects_thugcity_title {
+        padding-left: 50px;
+    }
+    .projects_thugcity_img1 {
+        opacity: 1;
+        position: absolute;
+        width: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        left: -150px;
+        right: 0;
+        top: 30px;
     }
     .projects_thugcity_img {
         display: none;
     }
+    .projects_w3gp_title {
+        padding-left: 50px;
+    }
+    .projects_w3gp_img1 {
+        opacity: 1;
+        position: absolute;
+        width: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        left: -255px;
+        right: 0;
+        top: -60px;
+    }
     .projects_w3gp_img {
         display: none;
+    }
+    .projects_quickchips_title {
+        padding-left: 50px;
+    }
+    .projects_quickchips_img1 {
+        opacity: 1;
+        position: absolute;
+        width: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        left: -180px;
+        right: 0;
+        top: 25px;
     }
     .projects_quickchips_img {
         display: none;

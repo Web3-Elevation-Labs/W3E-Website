@@ -24,6 +24,7 @@ class Management extends Component {
                     <ScrollAnimation animateIn='animate__fadeIn' animateOnce='true' offset='800' duration='3'>
                         <img src="./images/computer.png" className='management_img'/>
                     </ScrollAnimation>
+                    <img src="./images/computer.png" className='management_img2'/>
                 </div>
             </div>
         );

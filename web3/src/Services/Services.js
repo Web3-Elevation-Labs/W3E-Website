@@ -32,6 +32,7 @@ class Services extends Component {
                         <div className='management_showcase_glow_img1'></div>
                         {/*<img src="./images/services_image.png" className='service_showcase_img'/>*/}
                     </ScrollAnimation>
+                    <div className='management_showcase_glow_img2'></div>
                 </div>
             </div>
         );

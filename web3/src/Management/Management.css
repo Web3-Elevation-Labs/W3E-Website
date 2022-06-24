@@ -25,6 +25,13 @@
     bottom: 490px;
     left: -40%;
 }
+.management_img2 {
+    opacity: 0;
+    position: relative;
+    width: 440px;
+    bottom: 490px;
+    left: -40%;
+}
 
 .community_management {
     position: relative;
@@ -99,12 +106,25 @@
 }
 
 @media only screen and (max-width: 850px) {
+    .management {
+        top: 8%;
+    }
     .management_title {
         margin-left: auto;
         margin-right: auto;
         left: 0;
         right: 0;
         text-align: center;
+    }
+    .management_img2 {
+        width: 250px;
+        opacity: 1;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: -800px;
+        padding-left: 25px;
     }
     .management_img {
         display: none;
@@ -137,22 +157,39 @@
     .growth_management_content {
         width: 300px;
     }
+    .management_img2 {
+        top: -900px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     .management {
-        top: 5%;
+        top: 7%;
     }
     .management_title {
         font-size: 50px;
     }
+    .management_img2 {
+        top: -860px;
+    }
 }
 
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 500px) {
+    .management {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 12%;
+    }
     .community_management_content {
         width: 250px;
     }
     .growth_management_content {
         width: 250px;
+    }
+    .management_img2 {
+        top: -900px;
+        padding-left: 40px;
     }
 }

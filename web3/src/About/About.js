@@ -35,7 +35,7 @@ class About extends Component {
                         </div>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn='animate__fadeIn' animateOnce='true' offset='600' duration='3'>
-                        <div className='management_showcase_glow_img1'></div>
+                        <img src='./images/ethereum-blockchain.png' className='about_img'></img>
                         {/*<img src="./images/services_image.png" className='service_showcase_img'/>*/}
                     </ScrollAnimation>
                 </div>
