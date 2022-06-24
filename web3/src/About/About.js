@@ -38,6 +38,7 @@ class About extends Component {
                         <img src='./images/ethereum-blockchain.png' className='about_img'></img>
                         {/*<img src="./images/services_image.png" className='service_showcase_img'/>*/}
                     </ScrollAnimation>
+                    <img src='./images/ethereum-blockchain.png' className='about_img2'></img>
                 </div>
             </div>
         );

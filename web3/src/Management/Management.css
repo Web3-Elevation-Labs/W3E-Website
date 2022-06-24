@@ -103,11 +103,17 @@
     .management_title {
         left: 40%;
     }
+    .community_management_content {
+        width: 400px;
+    }
+    .growth_management_content {
+        width: 400px;
+    }
 }
 
 @media only screen and (max-width: 850px) {
     .management {
-        top: 8%;
+        top: 6%;
     }
     .management_title {
         margin-left: auto;
@@ -180,7 +186,7 @@
         margin-right: auto;
         left: 0;
         right: 0;
-        top: 12%;
+        top: 7%;
     }
     .community_management_content {
         width: 250px;

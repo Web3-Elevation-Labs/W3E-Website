@@ -16,6 +16,13 @@
     top: 23%;
     left: 36%;
 }
+.about_img2 {
+    opacity: 0;
+    position: absolute;
+    width: 45%;
+    top: 23%;
+    left: 36%;
+}
 
 .about_title {
     position: relative;
@@ -115,99 +122,99 @@
     top: -10px;
 }
 
-.management_showcase_glow_img1 {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    left: 60%;
-    transform: translateX(-250px);
-    bottom: 500px;
-    border-radius: 50%;
-    animation: glow_ball 10s infinite;
-    animation-direction: alternate;
-    box-shadow:
-      inset 0 0 50px #fff,      /* inner white */
-      inset 20px 0 80px #f0f,   /* inner left magenta short */
-      inset -20px 0 80px #0ff,  /* inner right cyan short */
-      inset 20px 0 300px #f0f,  /* inner left magenta broad */
-      inset -20px 0 300px #0ff, /* inner right cyan broad */
-      -10px 0 80px #f0f,        /* outer left magenta */
-      10px 0 80px #0ff;         /* outer right cyan */
-}
-
-
-@keyframes glow_ball {
-    0% {
-        box-shadow:
-            inset 0 0 50px #fff,      /* inner white */
-            inset 20px 0 80px #f0f,   /* inner left magenta short */
-            inset -20px 0 80px #0ff,  /* inner right cyan short */
-            inset 20px 0 300px #f0f,  /* inner left magenta broad */
-            inset -20px 0 300px #0ff, /* inner right cyan broad */
-            -10px 0 80px #f0f,        /* outer left magenta */
-            10px 0 80px #0ff;         /* outer right cyan */
+@media only screen and (max-width: 1600px) {
+    .about_img {
+        left: 60%;
     }
-    50% {
-        box-shadow:
-            inset 0 0 50px #fff,      /* inner white */
-            inset 20px 0 80px #2d2fa9,   /* inner left magenta short */
-            inset -20px 0 80px #0ff,  /* inner right cyan short */
-            inset 20px 0 300px #2d2fa9,  /* inner left magenta broad */
-            inset -20px 0 300px #0ff, /* inner right cyan broad */
-            -10px 0 80px #2d2fa9,        /* outer left magenta */
-            10px 0 80px #0ff;         /* outer right cyan */
-    }
-    100% {
-        box-shadow:
-            inset 0 0 50px #fff,      /* inner white */
-            inset 20px 0 80px #e40f8f,   /* inner left magenta short */
-            inset -20px 0 80px #0008ff,  /* inner right cyan short */
-            inset 20px 0 300px #e40f8f,  /* inner left magenta broad */
-            inset -20px 0 300px #0008ff, /* inner right cyan broad */
-            -10px 0 80px #e40f8f,        /* outer left magenta */
-            10px 0 80px #0008ff;         /* outer right cyan */
+    .about_title {
+        left: 0%;
     }
 }
 
-.bb, .bb::before, .bb::after {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-.bb {
-    width: 200px;
-    height: 200px;
-    margin: auto;
-    background: url('//blog.codepen.io/wp-content/uploads/2012/06/Button-White-Large.png') no-repeat 50% / 70% rgb(0, 0, 0, 0.5);
-    color: #f0f;
-    box-shadow: inset 0 0 0 1px #f0f;
-    left: 40%;
-    bottom: 55%;
-}
-.bb::before, .bb::after {
-    content: '';
-    z-index: -1;
-    margin: -5%;
-    box-shadow: inset 0 0 0 2px;
-    animation: clipMe 30s linear infinite;
+@media only screen and (max-width: 1100px) {
+    .about_img {
+        left: 70%;
+    }
+    .about_title {
+        left: -5%;
+    }
 }
 
-.bb::before {
-    animation-delay: -15s;
+@media only screen and (max-width: 950px) {
+    .about_title {
+        left: -7%;
+    }
+    .about_img {
+        left: 75%;
+    }
 }
-@keyframes clipMe {
-    0%, 100% {
-        clip: rect(0px, 220px, 2px, 0px);
-   }
-    25% {
-        clip: rect(0px, 2px, 220px, 0px);
-   }
-    50% {
-        clip: rect(218px, 200px, 220px, 0px);
-   }
-    75% {
-        clip: rect(0px, 220px, 220px, 218px);
-   }
+
+@media only screen and (max-width: 850px) {
+    .about {
+        top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        right: 0;
+        left: 7%;
+        text-align: center;
+    }
+    .about_img2 {
+        opacity: 1;
+        position: absolute;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        right: 0;
+        left: 0;
+        top: -45%;
+    }
+    .about_img {
+        display: none;
+    }
+    .about_blockchain, .about_blockchain_content, .about_flexible, .about_flexible_content, .about_transparency, .about_transparency_content, .about_security, .about_security_content {
+        margin-left: auto;
+        margin-right: auto;
+        right: 0;
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .about_img2 {
+        top: -32%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about_img2 {
+        top: -37%;
+    }
+    .about_blockchain_content, .about_flexible_content, .about_transparency_content, .about_security_content {
+        width: 450px;
+    }
+    .about_title {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .about {
+        top: 9%;
+    }
+    .about_img2 {
+        width: 70%;
+        top: -30%;
+    }
+    .about_blockchain_content, .about_flexible_content, .about_transparency_content, .about_security_content {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .about_blockchain_content, .about_flexible_content, .about_transparency_content, .about_security_content {
+        width: 300px;
+    }
+    .about_img2 {
+        top: -25%;
+    }
 }

@@ -102,6 +102,10 @@ h2 {
     
 }
 
+.column_3 h1 {
+    text-align: left;
+    width: 150px;
+}
 
 @media only screen and (max-width: 1500px) {
     .column_2 {
@@ -109,6 +113,18 @@ h2 {
     }
     .column_3 {
         left: 60%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .footer {
+        top: 17.5%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .footer {
+        top: 20.5%;
     }
 }
 
@@ -123,7 +139,7 @@ h2 {
 
 @media only screen and (max-width: 550px) {
     .footer {
-        top: 3%
+        top: 18.5%
     }
     .column_2 {
         display: none;
@@ -131,8 +147,10 @@ h2 {
     .column_3 {
         left: 45%;
     }
-    .column_3 h1 {
-        text-align: left;
-        width: 150px;
+}
+
+@media only screen and (max-width: 500px) {
+    .footer {
+        top: 16%;
     }
 }

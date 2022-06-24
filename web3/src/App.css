@@ -68,6 +68,26 @@ body {
   overflow-y: scroll;
 
 }
+@media only screen and (max-width: 850px) {
+  .App{
+    height: 7100px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .App {
+    height: 8000px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .App {
+    height: 7800px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .App {
+    height: 7550px;
+  }
+}
 
 * {
   color: white;
