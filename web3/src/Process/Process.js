@@ -10,7 +10,7 @@ class Process extends Component {
             <div className='process' id="process">
                 
                 <div className='process_title'>Development Process
-                    <ScrollAnimation animateIn='animate__fadeInRight' animateOnce='true' duration='1'>
+                    <ScrollAnimation animateIn='animate__fadeInRight' animateOnce='true' duration='1.5'>
                         <div className='process_diagram_wrapper'>
                             <div className='process_blue_wrapper'>
                                 <img src='./images/process-blue.png' className='process_diagram_img'></img>
