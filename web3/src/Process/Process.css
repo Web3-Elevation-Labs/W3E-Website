@@ -27,16 +27,12 @@
     right: 0;
 }
 
-.about_blue_img, .about_orange_img, .about_green_img, .about_red_img {
+.about_diagram_img {
     position: absolute;
-    width: 20%;
-    top: 10%;
+    left: -15%; 
+    width: 130%;
+    top: -30%;
 }
-.about_blue_img {left: 8.5%;}
-.about_orange_img {left: 29.5%;}
-.about_green_img {right: 29.5%;}
-.about_red_img {right: 8.5%;}
-
 .about_blue_wrapper, .about_orange_wrapper, .about_green_wrapper, .about_red_wrapper {
     position: absolute;
     width: 15%;
@@ -75,6 +71,6 @@
     color: #ffffff;
     font-size: 40px;
     text-align: left;
-    left: 12%;
+    left: 10%;
     top: -20%;
 }
