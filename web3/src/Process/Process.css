@@ -124,8 +124,12 @@
     }
     .process_title {
         width: 300px;
-        left: 50%;
-        transform: translate(-50%);
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 50px;
     }
     .process_blue_wrapper, .process_orange_wrapper, .process_green_wrapper, .process_red_wrapper{
         margin-left: auto;
@@ -153,6 +157,16 @@
 
 @media only screen and (max-width: 500px) {
     .process {
-        top: 10%;
+        top: 11%;
+    }
+    .process_title {
+        transform: translate(-50%);
+        left: 50%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .process {
+        top: 8.5%;
     }
 }

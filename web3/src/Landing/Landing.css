@@ -161,6 +161,7 @@
 @media only screen and (max-width: 850px) {
     .header {
         height: 90px;
+        position: absolute;
     }
     .landing_header_title {
         transform: translate(0, -140%);
@@ -217,6 +218,9 @@
     .landing_header_subtitle {
         left: -38%
     }
+    .landing_showcase_logo {
+        top: 120px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -243,6 +247,9 @@
     }
     .landing_header_subtitle {
         left: -60%
+    }
+    .landing_showcase_content {
+        font-size: 18px;
     }
 }
 

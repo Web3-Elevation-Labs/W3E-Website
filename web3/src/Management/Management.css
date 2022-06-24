@@ -189,13 +189,19 @@
         top: 7%;
     }
     .community_management_content {
-        width: 250px;
+        width: 300px;
     }
     .growth_management_content {
-        width: 250px;
+        width: 300px;
     }
     .management_img2 {
         top: -900px;
         padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .management {
+        top: 4.5%;
     }
 }

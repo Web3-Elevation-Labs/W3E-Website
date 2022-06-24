@@ -346,6 +346,9 @@
         width: 300px;
         left: 0%;
     }
+    .services_frontend_development {
+        top: -10px;
+    }
 }
 
 @media only screen and (max-width: 450px) {

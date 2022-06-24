@@ -88,6 +88,11 @@ body {
     height: 7550px;
   }
 }
+@media only screen and (max-width: 500px) {
+  .App {
+    height: 7500px;
+  }
+}
 
 * {
   color: white;
