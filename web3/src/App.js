@@ -9,11 +9,11 @@ import Management from './Management/Management';
 import About from './About/About';
 import Process from './Process/Process';
 
-
 function App() {
 
   return (
     <div className="App">
+  
         <Landing/>
         <Services/>
         <Management/>
