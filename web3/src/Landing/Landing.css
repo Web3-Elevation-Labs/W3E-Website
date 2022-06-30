@@ -65,6 +65,11 @@
     font-size: 15px;
 }
 
+.landing_header_menu li a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .landing_header_menu a {
     font-family: 'Aperco-Pro-Medium';
     color: #2a2825;
