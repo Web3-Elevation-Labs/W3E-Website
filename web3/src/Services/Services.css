@@ -8,6 +8,8 @@
     text-align: left;
     font-family: 'Aperco-Pro-Bold';
     top: 0.5%;
+    width: 100vw;
+    scroll-snap-align: start;
 }
 
 .services_title {
@@ -17,6 +19,9 @@
     color: #2a2825;
     font-size: 65px;
     top: 10%;
+}
+
+.services_title_snap {
 }
 
 .services_smart_contract {

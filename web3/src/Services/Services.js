@@ -9,7 +9,9 @@ class Services extends Component {
         return (
             <div className='services' id="services">
                 
-                <div className='services_title'>Development
+                <div className='services_title'>
+                    <div className='services_title_snap' styles="color: #000">snap</div>
+                    Development
                     <ScrollAnimation animateIn='animate__fadeInLeft' animateOnce='true' duration='1.5'>
                         <div className='services_smart_contract'>
                             <p className='services_smart_contract_title'>Smart Contracts</p>
